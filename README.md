@@ -1,16 +1,38 @@
-# devquiz
+# NLW 5 - Trilha Flutter
+Link do projeto no Figma: (https://www.figma.com/file/fMqKhwT9L5D3MVe4btRtG5/DevQuiz?node-id=0%3A1).
 
-A new Flutter project.
+# Sobre o projeto
+Esta é a aplicação de quiz desenvolvida durante a Next Level Week da Rocketseat.
 
-## Getting Started
+## Layout mobile
+![Mobile 1](https://github.com/hiroyamaguch/assets/blob/19975a853f6b95d7fb83c9415d3d83f9fb4711db/challenge10/mobile1.jpg) ![Mobile 2](https://github.com/hiroyamaguch/assets/blob/19975a853f6b95d7fb83c9415d3d83f9fb4711db/challenge10/mobile2.jpg) 
 
-This project is a starting point for a Flutter application.
+![Mobile 3](https://github.com/hiroyamaguch/assets/blob/19975a853f6b95d7fb83c9415d3d83f9fb4711db/challenge10/mobile3.jpg) ![Mobile 4](https://github.com/hiroyamaguch/assets/blob/19975a853f6b95d7fb83c9415d3d83f9fb4711db/challenge10/mobile4.jpg) 
 
-A few resources to get you started if this is your first Flutter project:
+![Mobile 5](https://github.com/hiroyamaguch/assets/blob/19975a853f6b95d7fb83c9415d3d83f9fb4711db/challenge10/mobile5.jpg)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# Tecnologias utilizadas
+- Dart
+- [Flutter](https://flutter.dev/)
+- [Share_plus](https://pub.dev/packages/share_plus)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Como executar o projeto
+Pré-requisitos: emuladores ou dispositivos android e ios
+
+```bash
+# Clone este repositório
+git clone https://github.com/hiroyamaguch/nlw5.git
+
+# Acesse a pasta do projeto no terminal/cmd
+cd nlw5
+
+# Instale as dependências
+$ yarn
+# ou
+$ npm install
+```
+
+# Autor
+Pedro Antônio Hiroyuki Yamaguchi
+
+https://www.linkedin.com/in/hiroyamaguch/
