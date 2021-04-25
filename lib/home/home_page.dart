@@ -8,6 +8,8 @@ import 'package:devquiz/home/widgets/quiz_card/quiz_card_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
+  const HomePage({Key? key}) : super(key: key);
+
   @override
   _HomePageState createState() => _HomePageState();
 }
@@ -38,9 +40,7 @@ class _HomePageState extends State<HomePage> {
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: Column(
               children: [
-                SizedBox(
-                  height: 24,
-                ),
+                SizedBox(height: 24),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -50,16 +50,14 @@ class _HomePageState extends State<HomePage> {
                     LevelButtonWidget(label: 'Perito'),
                   ],
                 ),
-                SizedBox(
-                  height: 24,
-                ),
+                SizedBox(height: 24),
                 Expanded(
-                  child: GridView.count(
-                      crossAxisSpacing: 16,
-                      mainAxisSpacing: 16,
-                      crossAxisCount: 2,
-                      children: controller.quizzes!
-                          .map((quiz) => QuizCardWidget(
+                    child: GridView.count(
+                        crossAxisSpacing: 16,
+                        mainAxisSpacing: 16,
+                        crossAxisCount: 2,
+                        children: controller.quizzes!
+                            .map((quiz) => QuizCardWidget(
                                 title: quiz.title,
                                 percent: quiz.questionAnswered /
                                     quiz.questions.length,
@@ -72,10 +70,8 @@ class _HomePageState extends State<HomePage> {
                                           builder: (context) => ChallengePage(
                                                 questions: quiz.questions,
                                               )));
-                                },
-                              ))
-                          .toList()),
-                )
+                                }))
+                            .toList()))
               ],
             ),
           ));

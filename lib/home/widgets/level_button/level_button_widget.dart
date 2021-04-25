@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 class LevelButtonWidget extends StatelessWidget {
   final String label;
+
   LevelButtonWidget({Key? key, required this.label})
       : assert([
           "Fácil",
@@ -49,8 +50,10 @@ class LevelButtonWidget extends StatelessWidget {
           borderRadius: BorderRadius.circular(28)),
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 6),
-        child: Text(this.label,
-            style: GoogleFonts.notoSans(fontSize: 13, color: fontColor)),
+        child: Text(
+          this.label,
+          style: GoogleFonts.notoSans(fontSize: 13, color: fontColor),
+        ),
       ),
     );
   }
