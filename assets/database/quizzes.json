@@ -1,0 +1,48 @@
+{
+  "quizzes": [
+    {
+      "title": "NLW 5 Flutter",
+      "questionAnswered": 1,
+      "questions": [
+        {
+          "title": "Está curtindo o FLutter",
+          "answers": [
+            {
+              "title": "Estou odiando"
+            },
+            {
+              "title": "Estou amando"
+            },
+            {
+              "title": "Estou adorando"
+            },
+            {
+              "title": "Estou curtindo",
+              "isRight": true
+            }
+          ]
+        },
+        {
+          "title": "Está curtindo o FLutter",
+          "answers": [
+            {
+              "title": "Estou odiando"
+            },
+            {
+              "title": "Estou amando"
+            },
+            {
+              "title": "Estou adorando"
+            },
+            {
+              "title": "Estou curtindo",
+              "isRight": true
+            }
+          ]
+        }
+      ],
+      "imagem": "blocks",
+      "level": "facil"
+    }
+  ]
+}
