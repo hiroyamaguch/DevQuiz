@@ -5,11 +5,11 @@ Link do projeto no Figma: https://www.figma.com/file/fMqKhwT9L5D3MVe4btRtG5/DevQ
 Esta é a aplicação de quiz desenvolvida durante a Next Level Week da Rocketseat.
 
 ## Layout mobile
-![Mobile 1](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/snapshot.jpg) ![Mobile 2](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/homePage.png) 
+![Mobile 1](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/snapshot.jpg) ![Mobile 2](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/homePage.jpg) 
 
-![Mobile 3](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/quiz2.png) ![Mobile 4](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/result_page.png) 
+![Mobile 3](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/quiz2.jpg) ![Mobile 4](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/result_page.jpg) 
 
-![Mobile 5](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/shareResults.png)
+![Mobile 5](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/shareResults.jpg)
 
 # Tecnologias utilizadas
 - Dart
