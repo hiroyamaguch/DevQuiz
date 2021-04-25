@@ -26,10 +26,9 @@ git clone https://github.com/hiroyamaguch/nlw5.git
 # Acesse a pasta do projeto no terminal/cmd
 cd nlw5
 
-# Instale as dependências
-$ yarn
-# ou
-$ npm install
+# Instale os packages com o plugin do FLutter (VS Code)
+
+# Execute o debug (VS Code)
 ```
 
 # Autor
