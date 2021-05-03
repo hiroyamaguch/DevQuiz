@@ -1,8 +1,8 @@
 # NLW 5 - Trilha Flutter
-Link do projeto no Figma: https://www.figma.com/file/fMqKhwT9L5D3MVe4btRtG5/DevQuiz?node-id=0%3A1.
+Link do projeto no Figma: https://www.figma.com/file/2KbWFrghGcCVZI8TQphDcl/DevQuiz-(Copy)?node-id=84686%3A280.
 
 # Sobre o projeto
-Esta é a aplicação de quiz desenvolvida durante a Next Level Week da Rocketseat.
+DevQuiz é uma aplicação de quiz desenvolvida durante a Next Level Week 5 da Rocketseat.
 
 ## Layout mobile
 ![Mobile 1](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/snapshot.jpg) ![Mobile 2](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/homePage.jpg) 
