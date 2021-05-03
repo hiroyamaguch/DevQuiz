@@ -17,12 +17,10 @@ class ResultPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print(Theme.of(context).backgroundColor);
-
     return Scaffold(
       backgroundColor: Theme.of(context).backgroundColor == Color(0xfff5f5fa)
           ? Colors.white
-          : Theme.of(context).backgroundColor,
+          : AppColors.black,
       body: Container(
         width: double.maxFinite,
         child: Column(
