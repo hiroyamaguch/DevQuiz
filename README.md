@@ -5,11 +5,9 @@ Link do projeto no Figma: https://www.figma.com/file/2KbWFrghGcCVZI8TQphDcl/DevQ
 DevQuiz é uma aplicação de quiz desenvolvida durante a Next Level Week 5 da Rocketseat.
 
 ## Layout mobile
-![Mobile 1](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/snapshot.jpg) ![Mobile 2](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/homePage.jpg) 
+![Mobile 1](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/snapshot.jpg) ![Mobile 2](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/homePage.jpg) ![Mobile 3](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/quiz2.jpg)
 
-![Mobile 3](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/quiz2.jpg) ![Mobile 4](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/result_page.jpg) 
-
-![Mobile 5](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/shareResults.jpg)
+![Mobile 4](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/result_page.jpg) ![Mobile 5](https://github.com/hiroyamaguch/assets/blob/53ff7cab9ebf7bd5fbe0f404f3522321a8d5c139/nlw5/shareResults.jpg)
 
 # Tecnologias utilizadas
 - Dart
