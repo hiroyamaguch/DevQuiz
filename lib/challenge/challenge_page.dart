@@ -2,9 +2,12 @@ import 'package:devquiz/challenge/challenge_controller.dart';
 import 'package:devquiz/challenge/widget/next_button/next_button_widget.dart';
 import 'package:devquiz/challenge/widget/question_indicator/question_indicator_widget.dart';
 import 'package:devquiz/challenge/widget/quiz/quiz_widget.dart';
+import 'package:devquiz/correct_wrong/correct_wrong_page.dart';
 import 'package:devquiz/result/result_page.dart';
+import 'package:devquiz/shared/models/answer_model.dart';
 import 'package:devquiz/shared/models/question_model.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class ChallengePage extends StatefulWidget {
   final List<QuestionModel> questions;
@@ -23,32 +26,58 @@ class ChallengePage extends StatefulWidget {
 class _ChallengePageState extends State<ChallengePage> {
   final challengeController = ChallengeController();
   final pageController = PageController();
+  var isCorrect = false;
+  var selectedAnswer;
 
   @override
   void initState() {
     super.initState();
+
     pageController.addListener(() {
       challengeController.currentPage = pageController.page!.toInt() + 1;
     });
   }
 
   void nextPage() {
+    if (isCorrect) {
+      challengeController.correctAnswers++;
+    }
+
     if (challengeController.currentPage < widget.questions.length)
       pageController.nextPage(
         duration: Duration(milliseconds: 300),
         curve: Curves.linear,
       );
+    else
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (context) => ResultPage(
+            title: widget.title,
+            qntAnswers: widget.questions.length,
+            correctAnswers: challengeController.correctAnswers,
+          ),
+        ),
+      );
   }
 
-  void onSelected(bool value) {
-    if (value) {
-      challengeController.correctAnswers++;
+  void onSelected(AnswerModel answer) {
+    if (answer.isRight) {
+      isCorrect = true;
+    } else {
+      isCorrect = false;
     }
-    nextPage();
+    selectedAnswer = answer.title;
   }
 
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+      statusBarColor: Colors.transparent, // status bar color
+      statusBarBrightness: Brightness.dark, //status bar brigtness
+      statusBarIconBrightness: Brightness.dark, //status barIcon Brightness
+    ));
+
     return Scaffold(
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(86),
@@ -87,41 +116,42 @@ class _ChallengePageState extends State<ChallengePage> {
       bottomNavigationBar: SafeArea(
         bottom: true,
         child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
-            child: ValueListenableBuilder(
-              valueListenable: challengeController.currentPageNotifier,
-              builder: (context, value, _) => Row(
-                children: [
-                  if (value != widget.questions.length)
-                    Expanded(
-                      child: NextButtonWidget.white(
-                        label: "Pular",
-                        onTap: nextPage,
-                      ),
-                    ),
-                  if (value == widget.questions.length) SizedBox(width: 8),
-                  if (value == widget.questions.length)
-                    Expanded(
-                      child: NextButtonWidget.green(
-                        label: "Confirmar",
-                        onTap: () {
-                          Navigator.pushReplacement(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => ResultPage(
-                                title: widget.title,
-                                qntAnswers: widget.questions.length,
-                                correctAnswers:
-                                    challengeController.correctAnswers,
-                              ),
-                            ),
-                          );
-                        },
-                      ),
-                    )
-                ],
-              ),
-            )),
+          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+          child: ValueListenableBuilder(
+            valueListenable: challengeController.currentPageNotifier,
+            builder: (context, value, _) => Row(
+              children: [
+                Expanded(
+                  child: NextButtonWidget.white(
+                    label: "Pular",
+                    onTap: nextPage,
+                  ),
+                ),
+                SizedBox(width: 8),
+                Expanded(
+                  child: NextButtonWidget.green(
+                    label: "Confirmar",
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => CorrectWrongPage(
+                            isCorrect: isCorrect,
+                            response: selectedAnswer,
+                            onTap: () {
+                              Navigator.pop(context);
+                              nextPage();
+                            },
+                          ),
+                        ),
+                      );
+                    },
+                  ),
+                )
+              ],
+            ),
+          ),
+        ),
       ),
     );
   }

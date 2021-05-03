@@ -26,7 +26,7 @@ class ResultPage extends StatelessWidget {
           children: [
             Column(
               children: [
-                Image.asset(AppImages.trophy),
+                Image.asset(AppImages.trophy, height: 250),
                 Text(
                   "Parabéns!",
                   style: AppTextStyles.heading40,

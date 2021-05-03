@@ -17,7 +17,11 @@ class SplashPage extends StatelessWidget {
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(gradient: AppGradients.linear),
-        child: Center(child: Image.asset(AppImages.logo)),
+        child: Center(
+            child: Image.asset(
+          AppImages.logo,
+          width: 215,
+        )),
       ),
     );
   }

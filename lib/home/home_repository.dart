@@ -10,12 +10,16 @@ class HomeRepository {
     return UserModel.fromJson(response);
   }
 
-  Future<List<QuizModel>> getQuizzes() async {
+  Future<List<QuizModel>> getQuizzes({required List<String> levels}) async {
     final response =
         await rootBundle.loadString("assets/database/quizzes.json");
     final map = jsonDecode(response) as Map;
     final list = map["quizzes"] as List;
     final quizzes = list.map((e) => QuizModel.fromMap(e)).toList();
-    return quizzes;
+
+    return quizzes.where((i) {
+      List<String> splitedString = i.level.toString().split('.');
+      return levels.contains(splitedString[1]);
+    }).toList();
   }
 }

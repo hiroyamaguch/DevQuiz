@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 class AnswerWidget extends StatelessWidget {
   final AnswerModel answer;
-  final ValueChanged<bool> onTap;
+  final ValueChanged<AnswerModel> onTap;
   final bool isSelected;
   final bool disabled;
 
@@ -17,23 +17,6 @@ class AnswerWidget extends StatelessWidget {
     this.isSelected = false,
   }) : super(key: key);
 
-  Color get _selectedColorRight =>
-      answer.isRight ? AppColors.darkGreen : AppColors.darkRed;
-
-  Color get _selectedBorderRight =>
-      answer.isRight ? AppColors.lightGreen : AppColors.lightRed;
-
-  Color get _selectedColorCardRight =>
-      answer.isRight ? AppColors.lightGreen : AppColors.lightRed;
-
-  Color get _selectedBorderCardRight =>
-      answer.isRight ? AppColors.green : AppColors.red;
-
-  TextStyle get _selectedTextStyleRight =>
-      answer.isRight ? AppTextStyles.bodyDarkGreen : AppTextStyles.bodyDarkRed;
-
-  IconData get _selectedIconRight => answer.isRight ? Icons.check : Icons.close;
-
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -42,17 +25,15 @@ class AnswerWidget extends StatelessWidget {
         ignoring: this.disabled,
         child: GestureDetector(
           onTap: () {
-            onTap(answer.isRight);
+            onTap(answer);
           },
           child: Container(
             padding: EdgeInsets.all(16),
             decoration: BoxDecoration(
-                color: isSelected ? _selectedColorCardRight : AppColors.white,
+                color: isSelected ? AppColors.lightGreen : AppColors.white,
                 borderRadius: BorderRadius.circular(10),
                 border: Border.fromBorderSide(BorderSide(
-                    color: isSelected
-                        ? _selectedBorderCardRight
-                        : AppColors.border))),
+                    color: isSelected ? AppColors.green : AppColors.border))),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -60,7 +41,7 @@ class AnswerWidget extends StatelessWidget {
                   child: Text(
                     answer.title,
                     style: isSelected
-                        ? _selectedTextStyleRight
+                        ? AppTextStyles.bodyDarkGreen
                         : AppTextStyles.body,
                   ),
                 ),
@@ -68,18 +49,18 @@ class AnswerWidget extends StatelessWidget {
                     width: 24,
                     height: 24,
                     decoration: BoxDecoration(
-                      color: isSelected ? _selectedColorRight : AppColors.white,
+                      color: isSelected ? AppColors.darkGreen : AppColors.white,
                       borderRadius: BorderRadius.circular(500),
                       border: Border.fromBorderSide(
                         BorderSide(
                             color: isSelected
-                                ? _selectedBorderRight
+                                ? AppColors.lightGreen
                                 : AppColors.border),
                       ),
                     ),
                     child: isSelected
                         ? Icon(
-                            _selectedIconRight,
+                            Icons.check,
                             size: 16,
                             color: Colors.white,
                           )

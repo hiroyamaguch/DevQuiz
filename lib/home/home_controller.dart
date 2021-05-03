@@ -20,9 +20,9 @@ class HomeController {
     state = HomeState.success;
   }
 
-  void getQuizzes() async {
+  void getQuizzes({required List<String> levels}) async {
     state = HomeState.loading;
-    quizzes = await repository.getQuizzes();
+    quizzes = await repository.getQuizzes(levels: levels);
     state = HomeState.success;
   }
 }

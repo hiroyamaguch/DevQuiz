@@ -7,16 +7,25 @@ import 'package:flutter/material.dart';
 class QuizCardWidget extends StatelessWidget {
   final String title;
   final String progress;
+  final String imageName;
   final double percent;
   final VoidCallback onTap;
 
-  const QuizCardWidget({
+  QuizCardWidget({
     Key? key,
     required this.title,
     required this.progress,
+    required this.imageName,
     required this.percent,
     required this.onTap,
   }) : super(key: key);
+
+  final config = {
+    "data": AppImages.data,
+    "laptop": AppImages.laptop,
+    "blocks": AppImages.blocks,
+    "hierarchy": AppImages.hierarchy,
+  };
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +39,7 @@ class QuizCardWidget extends StatelessWidget {
             borderRadius: BorderRadius.circular(10)),
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           Container(
-              height: 40, width: 40, child: Image.asset(AppImages.blocks)),
+              height: 40, width: 40, child: Image.asset(config[imageName]!)),
           SizedBox(height: 18),
           Text(this.title, style: AppTextStyles.heading15),
           SizedBox(height: 18),
