@@ -15,7 +15,7 @@ DevQuiz é uma aplicação de quiz desenvolvida durante a Next Level Week 5 da R
 - [Share_plus](https://pub.dev/packages/share_plus)
 
 # Como executar o projeto
-Pré-requisitos: emuladores ou dispositivos android e ios
+Pré-requisitos: emuladores ou dispositivos android e ios / Flutter SDK
 
 ```bash
 # Clone este repositório
@@ -24,9 +24,8 @@ git clone https://github.com/hiroyamaguch/nlw5.git
 # Acesse a pasta do projeto no terminal/cmd
 cd nlw5
 
-# Instale os packages com o plugin do FLutter (VS Code)
-
-# Execute o debug (VS Code)
+# Executando o projeto
+flutter run
 ```
 
 # Autor
