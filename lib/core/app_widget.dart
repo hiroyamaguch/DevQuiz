@@ -7,8 +7,6 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Dev Quiz",
-      home: SplashPage(),
       theme: ThemeData(
         brightness: Brightness.light,
         backgroundColor: AppColors.white,
@@ -30,6 +28,8 @@ class AppWidget extends StatelessWidget {
         ),
       ),
       themeMode: ThemeMode.system,
+      title: "Dev Quiz",
+      home: SplashPage(),
     );
   }
 }

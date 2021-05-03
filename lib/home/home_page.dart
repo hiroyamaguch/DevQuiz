@@ -37,6 +37,14 @@ class _HomePageState extends State<HomePage> {
       statusBarColor: Colors.transparent, // status bar color
       statusBarBrightness: Brightness.light, //status bar brigtness
       statusBarIconBrightness: Brightness.light, //status barIcon Brightness
+      systemNavigationBarColor:
+          Theme.of(context).backgroundColor, // navigation bar color
+      systemNavigationBarDividerColor:
+          AppColors.border, //Navigation bar divider color
+      systemNavigationBarIconBrightness:
+          Theme.of(context).brightness == Brightness.dark
+              ? Brightness.light
+              : Brightness.dark, //navigation bar icon
     ));
 
     if (controller.state == HomeState.success) {
