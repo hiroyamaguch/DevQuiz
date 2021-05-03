@@ -10,6 +10,7 @@ DevQuiz é uma aplicação de quiz desenvolvida durante a Next Level Week 5 da R
 ![Mobile 4](https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/resultPage.jpg) ![Mobile 5](https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/shareResults.jpg)
 
 ## Layout mobile Dark
+![Mobile 6](https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/homePageDark.jpg) ![Mobile 7](https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/quizDark.jpg) ![Mobile 8](https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/shareResultsDark.jpg)
 
 # Tecnologias utilizadas
 - Dart
