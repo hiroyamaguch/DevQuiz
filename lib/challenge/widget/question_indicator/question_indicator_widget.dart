@@ -1,4 +1,3 @@
-import 'package:devquiz/core/app_text_styles.dart';
 import 'package:devquiz/shared/widgets/progress_indicator/progress_indicator.dart';
 import 'package:flutter/material.dart';
 
@@ -21,11 +20,11 @@ class QuestionIndicatorWidget extends StatelessWidget {
             children: [
               Text(
                 "Questão $currentPage",
-                style: AppTextStyles.body,
+                style: Theme.of(context).textTheme.bodyText1,
               ),
               Text(
                 "de $length",
-                style: AppTextStyles.body,
+                style: Theme.of(context).textTheme.bodyText1,
               ),
             ],
           ),

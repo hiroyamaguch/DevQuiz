@@ -29,7 +29,10 @@ class _QuizWidgetState extends State<QuizWidget> {
       child: Column(
         children: [
           SizedBox(height: 64),
-          Text(widget.question.title, style: AppTextStyles.heading),
+          Text(
+            widget.question.title,
+            style: Theme.of(context).textTheme.headline1,
+          ),
           SizedBox(height: 24),
           for (var i = 0; i < widget.question.answers.length; i++)
             AnswerWidget(

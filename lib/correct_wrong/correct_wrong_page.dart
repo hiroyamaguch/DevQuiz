@@ -17,6 +17,7 @@ class CorrectWrongPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Theme.of(context).backgroundColor,
       body: Container(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -34,12 +35,19 @@ class CorrectWrongPage extends StatelessWidget {
               children: [
                 SizedBox(height: 56),
                 if (isCorrect)
-                  Text("Acertou!", style: AppTextStyles.heading40)
+                  Text("Acertou!", style: Theme.of(context).textTheme.headline2)
                 else
-                  Text("Errou :/", style: AppTextStyles.heading40),
+                  Text(
+                    "Errou :/",
+                    style: Theme.of(context).textTheme.headline2,
+                  ),
                 SizedBox(height: 16),
                 Text.rich(
-                  TextSpan(text: response, style: AppTextStyles.body),
+                  TextSpan(
+                    text:
+                        response != '' ? response : 'Nenhuma opção selecionada',
+                    style: Theme.of(context).textTheme.bodyText1,
+                  ),
                   textAlign: TextAlign.center,
                 ),
               ],

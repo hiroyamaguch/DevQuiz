@@ -22,8 +22,20 @@ class AppTextStyles {
     fontWeight: FontWeight.w600,
   );
 
+  static final TextStyle headingDark = GoogleFonts.notoSans(
+    color: AppColors.white,
+    fontSize: 18,
+    fontWeight: FontWeight.w600,
+  );
+
   static final TextStyle heading40 = GoogleFonts.notoSans(
     color: AppColors.black,
+    fontSize: 40,
+    fontWeight: FontWeight.w600,
+  );
+
+  static final TextStyle heading40Dark = GoogleFonts.notoSans(
+    color: AppColors.white,
     fontSize: 40,
     fontWeight: FontWeight.w600,
   );
@@ -40,8 +52,20 @@ class AppTextStyles {
     fontWeight: FontWeight.normal,
   );
 
+  static final TextStyle bodyDark = GoogleFonts.notoSans(
+    color: AppColors.white,
+    fontSize: 13,
+    fontWeight: FontWeight.normal,
+  );
+
   static final TextStyle bodyBold = GoogleFonts.notoSans(
     color: AppColors.grey,
+    fontSize: 13,
+    fontWeight: FontWeight.bold,
+  );
+
+  static final TextStyle bodyBoldDark = GoogleFonts.notoSans(
+    color: AppColors.white,
     fontSize: 13,
     fontWeight: FontWeight.bold,
   );

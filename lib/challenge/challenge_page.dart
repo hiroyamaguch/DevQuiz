@@ -2,6 +2,7 @@ import 'package:devquiz/challenge/challenge_controller.dart';
 import 'package:devquiz/challenge/widget/next_button/next_button_widget.dart';
 import 'package:devquiz/challenge/widget/question_indicator/question_indicator_widget.dart';
 import 'package:devquiz/challenge/widget/quiz/quiz_widget.dart';
+import 'package:devquiz/core/app_colors.dart';
 import 'package:devquiz/correct_wrong/correct_wrong_page.dart';
 import 'package:devquiz/result/result_page.dart';
 import 'package:devquiz/shared/models/answer_model.dart';
@@ -27,7 +28,7 @@ class _ChallengePageState extends State<ChallengePage> {
   final challengeController = ChallengeController();
   final pageController = PageController();
   var isCorrect = false;
-  var selectedAnswer;
+  var selectedAnswer = '';
 
   @override
   void initState() {
@@ -43,12 +44,14 @@ class _ChallengePageState extends State<ChallengePage> {
       challengeController.correctAnswers++;
     }
 
-    if (challengeController.currentPage < widget.questions.length)
+    if (challengeController.currentPage < widget.questions.length) {
+      isCorrect = false;
+      selectedAnswer = '';
       pageController.nextPage(
         duration: Duration(milliseconds: 300),
         curve: Curves.linear,
       );
-    else
+    } else
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
@@ -72,13 +75,27 @@ class _ChallengePageState extends State<ChallengePage> {
 
   @override
   Widget build(BuildContext context) {
-    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-      statusBarColor: Colors.transparent, // status bar color
-      statusBarBrightness: Brightness.dark, //status bar brigtness
-      statusBarIconBrightness: Brightness.dark, //status barIcon Brightness
-    ));
+    ThemeMode.system == ThemeMode.dark
+        ? SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+            statusBarColor: Colors.transparent, // status bar color
+            statusBarBrightness: Brightness.light, //status bar brigtness
+            statusBarIconBrightness:
+                Brightness.light, //status barIcon Brightness
+          ))
+        : SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+            statusBarColor: Colors.transparent, // status bar color
+            statusBarBrightness: Brightness.light, //status bar brigtness
+            statusBarIconBrightness:
+                Brightness.light, //status barIcon Brightness
+            systemNavigationBarColor: AppColors.black, // navigation bar color
+            systemNavigationBarDividerColor:
+                AppColors.black, //Navigation bar divider color
+            systemNavigationBarIconBrightness:
+                Brightness.dark, //navigation bar icon
+          ));
 
     return Scaffold(
+      backgroundColor: Theme.of(context).backgroundColor,
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(86),
         child: SafeArea(

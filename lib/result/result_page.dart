@@ -29,21 +29,21 @@ class ResultPage extends StatelessWidget {
                 Image.asset(AppImages.trophy, height: 250),
                 Text(
                   "Parabéns!",
-                  style: AppTextStyles.heading40,
+                  style: Theme.of(context).textTheme.headline2,
                 ),
                 SizedBox(height: 16),
                 Text.rich(
                   TextSpan(
                     text: "Você concluiu",
-                    style: AppTextStyles.body,
+                    style: Theme.of(context).textTheme.bodyText1,
                     children: [
                       TextSpan(
                         text: "\n$title",
-                        style: AppTextStyles.bodyBold,
+                        style: Theme.of(context).textTheme.bodyText2,
                       ),
                       TextSpan(
                         text: "\ncom $correctAnswers de $qntAnswers acertos.",
-                        style: AppTextStyles.body,
+                        style: Theme.of(context).textTheme.bodyText1,
                       ),
                     ],
                   ),
