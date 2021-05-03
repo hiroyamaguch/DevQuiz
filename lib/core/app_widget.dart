@@ -9,7 +9,7 @@ class AppWidget extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         brightness: Brightness.light,
-        backgroundColor: AppColors.white,
+        backgroundColor: Color(0xFFF5F5FA),
         textTheme: TextTheme(
           bodyText1: AppTextStyles.body,
           bodyText2: AppTextStyles.bodyBold,
