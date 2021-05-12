@@ -7,21 +7,29 @@
 </h3>
 
 <p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/hiroyamaguch/nlw5?color=04D361">
+
+  <a href="https://pedroyamaguchi.dev/">
+    <img alt="Made by Pedro Yamaguchi" src="https://img.shields.io/badge/made%20by-Pedro%20Yamaguchi-04D361">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-04D361">
+</p>
+
+<p align="center">
   <a href="#memo-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-como-executar-o-projeto">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://www.figma.com/file/2KbWFrghGcCVZI8TQphDcl/DevQuiz-(Copy)?node-id=84686%3A280">Projeto no Figma</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#man_technologist-autor">Sobre o autor</a>
+  <a href="https://www.figma.com/file/2KbWFrghGcCVZI8TQphDcl/DevQuiz-(Copy)?node-id=84686%3A280">Projeto no Figma</a>
 </p>
 
 ## :memo: Sobre o projeto
 DevQuiz é uma aplicação de quiz desenvolvida durante a Next Level Week 5 da Rocketseat.
 
 ### Layout mobile Light
-![Mobile 1](https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/snapshot.jpg) ![Mobile 2](https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/homePage.jpg) ![Mobile 3](https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/quiz.jpg) ![Mobile 4](https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/resultPage.jpg) ![Mobile 5](https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/shareResults.jpg)
+![Snapshot][1.1] ![Home Page][1.2] ![Quiz Page][1.3] ![Result Page][1.4] ![Share Results][1.5]
 
 ### Layout mobile Dark
-![Mobile 6](https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/homePageDark.jpg) ![Mobile 7](https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/quizDark.jpg) ![Mobile 8](https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/shareResultsDark.jpg)
+![Home Page Dark][1.6] ![Quiz Page Dark][1.7] ![Share Results Dark][1.8] 
 
 ### Tecnologias utilizadas
 - Dart
@@ -43,15 +51,25 @@ flutter run
 ```
 
 ## :man_technologist: Autor
-Made by Pedro Yamaguchi. You can find me on on [![LinkedIn][3.2]][3].
+Made by Pedro Yamaguchi. You can find me on [![LinkedIn][2.2]][3.2].
+
+<!-- Links to assets -->
+
+[1.1]: https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/snapshot.jpg (Snapshot)
+[1.2]: https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/homePage.jpg (Home Page)
+[1.3]: https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/quiz.jpg (Quiz Page)
+[1.4]: https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/resultPage.jpg (Result Page)
+[1.5]: https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/shareResults.jpg (Share Results)
+[1.6]: https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/homePageDark.jpg (Home Page Dark)
+[1.7]: https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/quizDark.jpg (Quiz Page Dark)
+[1.8]: https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/shareResultsDark.jpg (Share Results Dark)
 
 <!-- Icons -->
 
-[1.2]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
+[2.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
 [2.2]: http://i.imgur.com/9I6NRUm.png (github icon without padding)
 
 <!-- Links to your social media accounts -->
 
-[1]: https://twitter.com/Martin_Heinz_
-[2]: https://www.linkedin.com/in/hiroyamaguch/
-
+[3.1]: https://twitter.com/Martin_Heinz_
+[3.2]: https://www.linkedin.com/in/hiroyamaguch/
