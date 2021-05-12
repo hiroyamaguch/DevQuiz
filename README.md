@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="#memo-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-como-executar-o-projeto">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://www.figma.com/file/2KbWFrghGcCVZI8TQphDcl/DevQuiz-(Copy)?node-id=84686%3A280">Projeto no Figma</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#man_technologist-autor">Sobre o autor</a>
@@ -43,11 +43,15 @@ flutter run
 ```
 
 ## :man_technologist: Autor
-Pedro Antônio Hiroyuki Yamaguchi
+Made by Pedro Yamaguchi. You can find me on on [![LinkedIn][3.2]][3].
 
-<p align="center">
-  <a href="https://pedroyamaguchi.dev/">Portfólio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/hiroyamaguch/">Linkedin</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="mailto:hiroyuki_yamaguchi@hotmai.com">E-mail</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-</p>
+<!-- Icons -->
+
+[1.2]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
+[2.2]: http://i.imgur.com/9I6NRUm.png (github icon without padding)
+
+<!-- Links to your social media accounts -->
+
+[1]: https://twitter.com/Martin_Heinz_
+[2]: https://www.linkedin.com/in/hiroyamaguch/
 
