@@ -3,17 +3,18 @@
 </p>
 
 <h3 align="center">
-  NLW 5 - Trilha Flutter
+  Next Level Week 5 - Trilha Flutter
 </h3>
 
 <p align="center">
-  <a href="#rocket-sobre-o-desafio">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://www.figma.com/file/2KbWFrghGcCVZI8TQphDcl/DevQuiz-(Copy)?node-id=84686%3A280">Projeto no Figma</a>
-  <a href="#memo-licença">Licença</a>
+  <a href="https://www.figma.com/file/2KbWFrghGcCVZI8TQphDcl/DevQuiz-(Copy)?node-id=84686%3A280">Projeto no Figma</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#man_technologist-autor">Sobre o autor</a>
 </p>
 
-## :rocket: Sobre o projeto
+## :memo: Sobre o projeto
 DevQuiz é uma aplicação de quiz desenvolvida durante a Next Level Week 5 da Rocketseat.
 
 ### Layout mobile Light
@@ -41,7 +42,12 @@ cd nlw5
 flutter run
 ```
 
-## Autor
+## :man_technologist: Autor
 Pedro Antônio Hiroyuki Yamaguchi
 
-https://www.linkedin.com/in/hiroyamaguch/
+<p align="center">
+  <a href="https://pedroyamaguchi.dev/">Portfólio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/hiroyamaguch/">Linkedin</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="mailto:hiroyuki_yamaguchi@hotmai.com">E-mail</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+
