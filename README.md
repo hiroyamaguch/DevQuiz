@@ -23,46 +23,31 @@
 </p>
 
 ## :memo: Sobre o projeto
-DevQuiz é uma aplicação de quiz desenvolvida durante a Next Level Week 5 da Rocketseat.
-
-### Layout mobile Light
-![Snapshot][1.1] ![Home Page][1.2] ![Quiz Page][1.3] ![Result Page][1.4] ![Share Results][1.5]
-
-### Layout mobile Dark
-![Home Page Dark][1.6] ![Quiz Page Dark][1.7] ![Share Results Dark][1.8] 
+DebQuiz é uma aplicação mobile que permite ao usuário testar seus conhecimentos através de questionários rápidos. Ela foi desenvolvida durante a Next Level Week 5 da Rocketseat.
 
 ### Tecnologias utilizadas
-- Dart
+- [Dart](https://dart.dev/)
 - [Flutter](https://flutter.dev/)
-- [Share_plus](https://pub.dev/packages/share_plus)
+  - [Share Plugin](https://pub.dev/packages/share_plus)
+
+<p align="center">
+  <img alt="App" src="https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/snapshot.jpg">
+  <img alt="App Dark" src="https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/homePage.jpg">
+</p>
 
 ## :rocket: Como executar o projeto
-Pré-requisitos: emuladores ou dispositivos android e ios / Flutter SDK
+1. Configurar o ambiente de desenvolvimento instalando o FLutter SDK e o emulador ([veja como](https://www.treinaweb.com.br/blog/configurando-ambiente-de-desenvolvimento-flutter/));
+2. Executar as seguintes linhas de código:
+    ```bash
+    # Clone este repositório
+    git clone https://github.com/hiroyamaguch/nlw5.git
 
-```bash
-# Clone este repositório
-git clone https://github.com/hiroyamaguch/nlw5.git
+    # Acesse a pasta do projeto no terminal/cmd
+    cd nlw5
 
-# Acesse a pasta do projeto no terminal/cmd
-cd nlw5
-
-# Executando o projeto
-flutter run
-```
-
-## :man_technologist: Autor
-Made by Pedro Yamaguchi. You can find me on [![LinkedIn][2.2]][3.2].
-
-<!-- Links to assets -->
-
-[1.1]: https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/snapshot.jpg (Snapshot)
-[1.2]: https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/homePage.jpg (Home Page)
-[1.3]: https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/quiz.jpg (Quiz Page)
-[1.4]: https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/resultPage.jpg (Result Page)
-[1.5]: https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/shareResults.jpg (Share Results)
-[1.6]: https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/homePageDark.jpg (Home Page Dark)
-[1.7]: https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/quizDark.jpg (Quiz Page Dark)
-[1.8]: https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/shareResultsDark.jpg (Share Results Dark)
+    # Executando o projeto
+    flutter run
+    ```
 
 <!-- Icons -->
 
