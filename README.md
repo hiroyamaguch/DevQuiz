@@ -22,6 +22,11 @@
   <a href="https://www.figma.com/file/2KbWFrghGcCVZI8TQphDcl/DevQuiz-(Copy)?node-id=84686%3A280">Projeto no Figma</a>
 </p>
 
+<p align="center">
+  <img alt="App" src="https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/snapshot.jpg">
+  <img alt="App Dark" src="https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/homePage.jpg">
+</p>
+
 ## :memo: Sobre o projeto
 DebQuiz é uma aplicação mobile que permite ao usuário testar seus conhecimentos através de questionários rápidos. Ela foi desenvolvida durante a Next Level Week 5 da Rocketseat.
 
@@ -29,11 +34,6 @@ DebQuiz é uma aplicação mobile que permite ao usuário testar seus conhecimen
 - [Dart](https://dart.dev/)
 - [Flutter](https://flutter.dev/)
   - [Share Plugin](https://pub.dev/packages/share_plus)
-
-<p align="center">
-  <img alt="App" src="https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/snapshot.jpg">
-  <img alt="App Dark" src="https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/homePage.jpg">
-</p>
 
 ## :rocket: Como executar o projeto
 1. Configurar o ambiente de desenvolvimento instalando o FLutter SDK e o emulador ([veja como](https://www.treinaweb.com.br/blog/configurando-ambiente-de-desenvolvimento-flutter/));
