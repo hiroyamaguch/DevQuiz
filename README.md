@@ -23,8 +23,8 @@
 </p>
 
 <p align="center">
-  <img alt="App" src="https://github.com/hiroyamaguch/assets/blob/ccd16495a4e73e6c1d57adc422289730f104d4cd/nlw5/app.gif">
-  <img alt="App Dark" src="https://github.com/hiroyamaguch/assets/blob/567e7daa5c0603cc85577baf3d9e853d655aea02/nlw5/homePage.jpg">
+  <img alt="App" src="https://github.com/hiroyamaguch/assets/blob/74d3f51a7bd15e318c430d5f2ca0b87b4f6e6e63/nlw5/app.gif">
+  <img alt="App Dark" src="https://github.com/hiroyamaguch/assets/blob/74d3f51a7bd15e318c430d5f2ca0b87b4f6e6e63/nlw5/app_dark.gif">
 </p>
 
 ## :memo: Sobre o projeto
