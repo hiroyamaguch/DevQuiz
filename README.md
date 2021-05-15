@@ -50,13 +50,3 @@ DevQuiz é uma aplicação mobile que permite ao usuário testar seus conhecimen
     # Executando o projeto
     flutter run
     ```
-
-<!-- Icons -->
-
-[2.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
-[2.2]: http://i.imgur.com/9I6NRUm.png (github icon without padding)
-
-<!-- Links to your social media accounts -->
-
-[3.1]: https://twitter.com/Martin_Heinz_
-[3.2]: https://www.linkedin.com/in/hiroyamaguch/
