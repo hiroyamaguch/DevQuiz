@@ -42,10 +42,10 @@ DevQuiz é uma aplicação mobile que permite ao usuário testar seus conhecimen
 2. Executar as seguintes linhas de código:
     ```bash
     # Clone este repositório
-    git clone https://github.com/hiroyamaguch/nlw5.git
+    git clone https://github.com/hiroyamaguch/DevQuiz.git
 
     # Acesse a pasta do projeto no terminal/cmd
-    cd nlw5
+    cd DevQuiz
 
     # Executando o projeto
     flutter run
