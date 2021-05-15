@@ -30,7 +30,7 @@
 </p>
 
 ## :memo: Sobre o projeto
-DebQuiz é uma aplicação mobile que permite ao usuário testar seus conhecimentos através de questionários rápidos. Ela foi desenvolvida durante a Next Level Week 5 da Rocketseat.
+DevQuiz é uma aplicação mobile que permite ao usuário testar seus conhecimentos através de questionários rápidos. Ela foi desenvolvida durante a Next Level Week 5 da Rocketseat.
 
 ### Tecnologias utilizadas
 - [Dart](https://dart.dev/)
