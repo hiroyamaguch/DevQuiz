@@ -12,8 +12,10 @@
   <a href="https://pedroyamaguchi.dev/">
     <img alt="Made by Pedro Yamaguchi" src="https://img.shields.io/badge/made%20by-Pedro%20Yamaguchi-04D361">
   </a>
-
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-04D361">
+  
+  <a href="./LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-04D361">
+  </a>  
 </p>
 
 <p align="center">
